@@ -226,8 +226,15 @@
             <div class="modal">
               <div class="modal-box relative">
                 <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                <div>
-                  <img src="" alt="" class="w-full h-[300px]" >
+                <div class="py-4 flex flex-col gap-3">
+                  <img src="images/tree-gf4aef3016_640.jpg" alt="" class="w-full h-[300px] rounded-xl" >
+                  <h1 class="text-2xl fond-bold"> <span class="text-violet-600">Product :</span> Product Name</h1>
+                  <p class="text-lg text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga praesentium atque id porro. Molestias quasi rerum nemo atque aut fugiat tempora perferendis quidem ab. Recusandae delectus nisi nobis impedit ratione.</p>
+                  <h1 class="text-2xl fond-bold">Features</h1>
+                  <p class="text-lg text-gray-700">Feature1, Feature2, Feature3, Feature4</p>
+
+                  <h1 class="text-2xl fond-bold"> <span class="text-violet-600">Price  :</span> $2000</h1>
+
                 </div>
                
               </div>
@@ -237,12 +244,52 @@
 
         </div>       
       </div> 
+
       <div class="drawer-side">
         <label for="my-drawer-4" class="drawer-overlay"></label>
         <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
-          <!-- Sidebar content here -->
-          <li><a>Sidebar Item 1</a></li>
-          <li><a>Sidebar Item 2</a></li>
+         <div>
+          <h1 class="text-2xl text-center">Cart Items</h1>
+         </div>
+         <div class="flex flex-col gap-3">
+            <div class="bg-gray-200 border-[2px] border-red-400 rounded-lg px-2 flex justify-between items-center">
+              <img src="images/sm_5ace0628840fa.jpg" class="w-[25%] h-20 py-2 rounded-lg" alt="">
+              <p>My product</p>
+              <p class=" border-[2px] rounded-lg px-[10px] py-[2px]">1</p>
+              <i class="fa-solid fa-trash text-red-500 text-xl"></i>
+            </div>
+            <div class="bg-gray-200 border-[2px] border-red-400 rounded-lg px-2 flex justify-between items-center">
+              <img src="images/sm_5ace0628840fa.jpg" class="w-[25%] h-20 py-2 rounded-lg" alt="">
+              <p>My product</p>
+              <p class=" border-[2px] rounded-lg px-[10px] py-[2px]">1</p>
+              <i class="fa-sharp fa-solid text-red-500 cursor-pointer fa-trash text-xl"></i>
+            </div>
+            <div class="flex justify-center">
+              <button class="bg-red-500 py-2 px-6 border duration-500 rounded-lg hover:bg-white border-red-500">Clear Cart</button>
+            </div>
+            <div class="bg-slate-400 p-3 rounded-lg font-semibold flex flex-col gap-1">
+             <div class="flex justify-between text-lg">
+              <p class="text-yellow-400">Product Count :</p>
+              <p class="text-white">0</p>
+             </div>
+
+             <div class="flex justify-between text-lg">
+              <p class="text-yellow-400">Price :</p>
+              <p class="text-white">$0</p>
+             </div>
+
+             <div class="flex justify-between text-lg">
+              <p class="text-yellow-400">Tax :</p>
+              <p class="text-white">$0</p>
+             </div>
+             <hr class="borber-[1.5px]">
+             <div class="flex justify-between text-lg">
+              <p class="text-yellow-400">Total Amount :</p>
+              <p class="text-white">$0</p>
+             </div>
+
+            </div>
+         </div>
         </ul>
       </div>
     </div>
